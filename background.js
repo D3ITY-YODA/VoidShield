@@ -78,3 +78,13 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
     return true;
   }
 });
+
+function updateBadge(tabId, result) {
+  const text = result.score >= 70 ? "!" : result.score >= 30 ? "?" : "";
+  const color = result.score >= 70 ? "#c0392b" : result.score >= 30 ? "#e67e22" : "#27ae60";
+  chrome.action.setBadgeText({ tabId, text });
+  chrome.action.setBadgeBackgroundColor({ tabId, color });
+}
+
+chrome.tabs.onRemoved.addListener((tabId) => scoresByTab.delete(tabId));
+
