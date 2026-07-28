@@ -28,3 +28,10 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
+   "web_accessible_resources": [
+    {
+      "resources": ["data/domain-list.json", "data/narratives.json"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
