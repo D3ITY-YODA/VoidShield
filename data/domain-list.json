@@ -1,0 +1,411 @@
+{
+  "source": "CheckFirst. Pravda Network Data Collection. GitHub Repository. https://github.com/CheckFirstHQ/pravda-network",
+  "network": "pravda",
+  "domainCount": 101,
+  "domains": [
+    {
+      "domain": "a.network.news-pravda.com",
+      "totalArticles": 8699321
+    },
+    {
+      "domain": "abkhazia.news-pravda.com",
+      "totalArticles": 12717
+    },
+    {
+      "domain": "albania.news-pravda.com",
+      "totalArticles": 5402
+    },
+    {
+      "domain": "algeria.news-pravda.com",
+      "totalArticles": 9182
+    },
+    {
+      "domain": "armenia.news-pravda.com",
+      "totalArticles": 56426
+    },
+    {
+      "domain": "au.news-pravda.com",
+      "totalArticles": 32862
+    },
+    {
+      "domain": "australia.news-pravda.com",
+      "totalArticles": 32822
+    },
+    {
+      "domain": "austria.news-pravda.com",
+      "totalArticles": 39684
+    },
+    {
+      "domain": "balkan.news-pravda.com",
+      "totalArticles": 169287
+    },
+    {
+      "domain": "basque.news-pravda.com",
+      "totalArticles": 6044
+    },
+    {
+      "domain": "belgique.news-pravda.com",
+      "totalArticles": 12280
+    },
+    {
+      "domain": "belgium.news-pravda.com",
+      "totalArticles": 14996
+    },
+    {
+      "domain": "bosnia-herzegovina.news-pravda.com",
+      "totalArticles": 67820
+    },
+    {
+      "domain": "bulgaria.news-pravda.com",
+      "totalArticles": 195926
+    },
+    {
+      "domain": "burkina-faso.news-pravda.com",
+      "totalArticles": 66620
+    },
+    {
+      "domain": "cameroon.news-pravda.com",
+      "totalArticles": 1591
+    },
+    {
+      "domain": "canada.news-pravda.com",
+      "totalArticles": 34020
+    },
+    {
+      "domain": "car.news-pravda.com",
+      "totalArticles": 19149
+    },
+    {
+      "domain": "catalan.news-pravda.com",
+      "totalArticles": 4721
+    },
+    {
+      "domain": "chad.news-pravda.com",
+      "totalArticles": 19047
+    },
+    {
+      "domain": "croatia.news-pravda.com",
+      "totalArticles": 12750
+    },
+    {
+      "domain": "cyprus.news-pravda.com",
+      "totalArticles": 5079
+    },
+    {
+      "domain": "czechia.news-pravda.com",
+      "totalArticles": 273445
+    },
+    {
+      "domain": "denmark.news-pravda.com",
+      "totalArticles": 45202
+    },
+    {
+      "domain": "deutsch.news-pravda.com",
+      "totalArticles": 530283
+    },
+    {
+      "domain": "dprk.news-pravda.com",
+      "totalArticles": 13609
+    },
+    {
+      "domain": "dutch.news-pravda.com",
+      "totalArticles": 144199
+    },
+    {
+      "domain": "egypt.news-pravda.com",
+      "totalArticles": 59806
+    },
+    {
+      "domain": "en-hu.news-pravda.com",
+      "totalArticles": 39021
+    },
+    {
+      "domain": "en-jp.news-pravda.com",
+      "totalArticles": 23506
+    },
+    {
+      "domain": "en-ro.news-pravda.com",
+      "totalArticles": 21312
+    },
+    {
+      "domain": "eritrea.news-pravda.com",
+      "totalArticles": 3617
+    },
+    {
+      "domain": "estonia.news-pravda.com",
+      "totalArticles": 42912
+    },
+    {
+      "domain": "eu.news-pravda.com",
+      "totalArticles": 177352
+    },
+    {
+      "domain": "finland.news-pravda.com",
+      "totalArticles": 24651
+    },
+    {
+      "domain": "francais.news-pravda.com",
+      "totalArticles": 473700
+    },
+    {
+      "domain": "france.news-pravda.com",
+      "totalArticles": 199863
+    },
+    {
+      "domain": "galician.news-pravda.com",
+      "totalArticles": 4122
+    },
+    {
+      "domain": "gambia.news-pravda.com",
+      "totalArticles": 608
+    },
+    {
+      "domain": "ge.news-pravda.com",
+      "totalArticles": 81134
+    },
+    {
+      "domain": "germany.news-pravda.com",
+      "totalArticles": 223388
+    },
+    {
+      "domain": "greece.news-pravda.com",
+      "totalArticles": 185895
+    },
+    {
+      "domain": "guinea-bissau.news-pravda.com",
+      "totalArticles": 981
+    },
+    {
+      "domain": "guinea.news-pravda.com",
+      "totalArticles": 2855
+    },
+    {
+      "domain": "hu-hu.news-pravda.com",
+      "totalArticles": 136355
+    },
+    {
+      "domain": "hungary.news-pravda.com",
+      "totalArticles": 136439
+    },
+    {
+      "domain": "iceland.news-pravda.com",
+      "totalArticles": 919
+    },
+    {
+      "domain": "ireland.news-pravda.com",
+      "totalArticles": 12034
+    },
+    {
+      "domain": "irish.news-pravda.com",
+      "totalArticles": 12039
+    },
+    {
+      "domain": "italy.news-pravda.com",
+      "totalArticles": 329068
+    },
+    {
+      "domain": "ja-jp.news-pravda.com",
+      "totalArticles": 64347
+    },
+    {
+      "domain": "japan.news-pravda.com",
+      "totalArticles": 64367
+    },
+    {
+      "domain": "korea.news-pravda.com",
+      "totalArticles": 65992
+    },
+    {
+      "domain": "latvia.news-pravda.com",
+      "totalArticles": 70401
+    },
+    {
+      "domain": "lithuania.news-pravda.com",
+      "totalArticles": 58669
+    },
+    {
+      "domain": "lt.news-pravda.com",
+      "totalArticles": 58524
+    },
+    {
+      "domain": "luxembourg.news-pravda.com",
+      "totalArticles": 1549
+    },
+    {
+      "domain": "mali.news-pravda.com",
+      "totalArticles": 16153
+    },
+    {
+      "domain": "malta.news-pravda.com",
+      "totalArticles": 754
+    },
+    {
+      "domain": "maori.news-pravda.com",
+      "totalArticles": 1318
+    },
+    {
+      "domain": "mauritania.news-pravda.com",
+      "totalArticles": 4187
+    },
+    {
+      "domain": "md.news-pravda.com",
+      "totalArticles": 210220
+    },
+    {
+      "domain": "moldova.news-pravda.com",
+      "totalArticles": 210385
+    },
+    {
+      "domain": "montenegro.news-pravda.com",
+      "totalArticles": 5269
+    },
+    {
+      "domain": "nato.news-pravda.com",
+      "totalArticles": 104725
+    },
+    {
+      "domain": "netherlands.news-pravda.com",
+      "totalArticles": 19541
+    },
+    {
+      "domain": "new-zealand.news-pravda.com",
+      "totalArticles": 2159
+    },
+    {
+      "domain": "news-pravda.com",
+      "totalArticles": 365895
+    },
+    {
+      "domain": "niger.news-pravda.com",
+      "totalArticles": 15545
+    },
+    {
+      "domain": "nigeria.news-pravda.com",
+      "totalArticles": 7443
+    },
+    {
+      "domain": "north-macedonia.news-pravda.com",
+      "totalArticles": 6800
+    },
+    {
+      "domain": "norway.news-pravda.com",
+      "totalArticles": 25838
+    },
+    {
+      "domain": "ossetia.news-pravda.com",
+      "totalArticles": 32287
+    },
+    {
+      "domain": "poland.news-pravda.com",
+      "totalArticles": 234216
+    },
+    {
+      "domain": "portugal.news-pravda.com",
+      "totalArticles": 10060
+    },
+    {
+      "domain": "portuguese.news-pravda.com",
+      "totalArticles": 276073
+    },
+    {
+      "domain": "rca.news-pravda.com",
+      "totalArticles": 19160
+    },
+    {
+      "domain": "ro-ro.news-pravda.com",
+      "totalArticles": 94871
+    },
+    {
+      "domain": "romania.news-pravda.com",
+      "totalArticles": 95044
+    },
+    {
+      "domain": "scotland.news-pravda.com",
+      "totalArticles": 4126
+    },
+    {
+      "domain": "senegal.news-pravda.com",
+      "totalArticles": 18539
+    },
+    {
+      "domain": "serbia.news-pravda.com",
+      "totalArticles": 225336
+    },
+    {
+      "domain": "singapore.news-pravda.com",
+      "totalArticles": 2229
+    },
+    {
+      "domain": "slovakia.news-pravda.com",
+      "totalArticles": 237218
+    },
+    {
+      "domain": "slovenia.news-pravda.com",
+      "totalArticles": 13964
+    },
+    {
+      "domain": "south-korea.news-pravda.com",
+      "totalArticles": 16144
+    },
+    {
+      "domain": "south-sudan.news-pravda.com",
+      "totalArticles": 1375
+    },
+    {
+      "domain": "spain.news-pravda.com",
+      "totalArticles": 88246
+    },
+    {
+      "domain": "spanish.news-pravda.com",
+      "totalArticles": 613030
+    },
+    {
+      "domain": "srpska.news-pravda.com",
+      "totalArticles": 5501
+    },
+    {
+      "domain": "sudan.news-pravda.com",
+      "totalArticles": 22933
+    },
+    {
+      "domain": "sweden.news-pravda.com",
+      "totalArticles": 25094
+    },
+    {
+      "domain": "switzerland.news-pravda.com",
+      "totalArticles": 17787
+    },
+    {
+      "domain": "syria.news-pravda.com",
+      "totalArticles": 176878
+    },
+    {
+      "domain": "taiwan.news-pravda.com",
+      "totalArticles": 31343
+    },
+    {
+      "domain": "trump.news-pravda.com",
+      "totalArticles": 135212
+    },
+    {
+      "domain": "turkey.news-pravda.com",
+      "totalArticles": 127491
+    },
+    {
+      "domain": "ua.news-pravda.com",
+      "totalArticles": 164634
+    },
+    {
+      "domain": "uk.news-pravda.com",
+      "totalArticles": 141820
+    },
+    {
+      "domain": "usa.news-pravda.com",
+      "totalArticles": 468307
+    },
+    {
+      "domain": "wales.news-pravda.com",
+      "totalArticles": 3582
+    }
+  ]
+}
