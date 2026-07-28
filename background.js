@@ -14,3 +14,11 @@ async function loadData() {
 
   domainSet = new Set(domainList.domains.map((d) => d.domain.toLowerCase()));
 }
+
+function matchesKnownDomain(hostname) {
+  const host = hostname.toLowerCase();
+  for (const known of domainSet) {
+    if (host === known || host.endsWith("." + known)) return known;
+  }
+  return null;
+}
