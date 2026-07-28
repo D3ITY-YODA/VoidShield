@@ -22,3 +22,17 @@ function matchesKnownDomain(hostname) {
   }
   return null;
 }
+
+function matchNarratives(text) {
+  const lower = text.toLowerCase();
+  const hits = [];
+  for (const n of narratives) {
+    for (const kw of n.keywords) {
+      if (lower.includes(kw.toLowerCase())) {
+        hits.push(n.label);
+        break;
+      }
+    }
+  }
+  return hits;
+}
