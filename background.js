@@ -36,3 +36,23 @@ function matchNarratives(text) {
   }
   return hits;
 }
+
+function scorePage({ hostname, text }) {
+  const domainHit = matchesKnownDomain(hostname);
+  const narrativeHits = matchNarratives(text || "");
+
+  let score = 0;
+  const reasons = [];
+                    
+  if (domainHit) {
+    score += 70;
+    reasons.push(`Domain matches known disinformation network entry: ${domainHit}`);
+  }
+  if (narrativeHits.length > 0) {
+    score += Math.min(30, narrativeHits.length * 15);
+    reasons.push(`Content matches known false-narrative pattern(s): ${narrativeHits.join(", ")}`);
+  }
+
+  return { score: Math.min(100, score), reasons, domainHit: !!domainHit };
+}
+
