@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Disinfo Domain Guard",
+  "version": "0.1.0",
+  "description": "Flags articles from known Russian disinformation network domains (Pravda/Portal Kombat) while browsing.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  
