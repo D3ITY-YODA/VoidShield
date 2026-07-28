@@ -56,3 +56,25 @@ function scorePage({ hostname, text }) {
   return { score: Math.min(100, score), reasons, domainHit: !!domainHit };
 }
 
+chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
+  if (msg.type === "PAGE_CONTENT") {
+    dataLoaded.then(() => {
+      const result = scorePage(msg.payload);
+      const tabId = sender.tab?.id;
+      if (tabId != null) {
+        scoresByTab.set(tabId, result);
+        updateBadge(tabId, result);
+      }
+      sendResponse(result);
+    });
+    return true; // keep channel open for async sendResponse
+  }
+
+  if (msg.type === "GET_ACTIVE_SCORE") {
+    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+      const tabId = tabs[0]?.id;
+      sendResponse(scoresByTab.get(tabId) || null);
+    });
+    return true;
+  }
+});
